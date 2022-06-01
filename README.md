@@ -1,16 +1,27 @@
 # riverpod_demo_todo
 
-A new Flutter project.
+riverpodの学習で作成、フォルダ構成を意識しました。
 
-## Getting Started
+riverpod + Firebase
 
-This project is a starting point for a Flutter application.
+## フォルダ構成
 
-A few resources to get you started if this is your first Flutter project:
+※lib配下のみ
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+lib
+    -model
+    -repositry
+    -ui
+        -screen
+        -component
+    -view_model
+    -state
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+screenとViewModelでは、各画面毎にファイルを作成
+Repository, Model, stateではデータの塊ごとにファイルを作成
+
+view_modelでrepositoryの処理をscreenで使いやすいように加工し、
+screenでview_model, stateを使用
+
+stateにはProviderを定義
+
