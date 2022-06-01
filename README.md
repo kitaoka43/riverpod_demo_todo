@@ -9,7 +9,7 @@ riverpod + Firebase
 ※lib配下のみ
 
 lib
-    -model
+-model
     -repositry
     -ui
         -screen
