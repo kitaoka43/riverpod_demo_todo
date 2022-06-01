@@ -8,14 +8,14 @@ riverpod + Firebase
 
 ※lib配下のみ
 
-lib
-    -model  
-    -repositry  
-    -ui  
-        -screen  
-        -component  
-    -view_model  
-    -state  
+|lib
+|    -model  
+|    -repositry  
+|    -ui  
+|        -screen  
+|        -component  
+|    -view_model  
+|    -state  
 
 screenとViewModelでは、各画面毎にファイルを作成
 Repository, Model, stateではデータの塊ごとにファイルを作成
