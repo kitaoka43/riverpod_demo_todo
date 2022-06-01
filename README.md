@@ -12,8 +12,8 @@ riverpod + Firebase
 | -model  
 | -repositry  
 | -ui  
-|   -screen  
-|   -component  
+| ---screen  
+| ---component  
 | -view_model  
 | -state  
 
